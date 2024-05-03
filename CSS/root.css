@@ -1,0 +1,15 @@
+/* colors */
+:root{
+    --primary-color: rgba(225, 225, 225, 1);
+    --secondary-color:#E5E5E5;
+    --title-primary-color:rgba(0, 0, 0, 1);
+    --title-secondary-color:rgba(50, 50, 50, 1);
+    --txt-primary-color:rgba(255, 255, 255, 1);
+    
+}
+/* colors */
+/* font */
+:root{
+    --primary-font:"Montserrat";
+}
+/* font */

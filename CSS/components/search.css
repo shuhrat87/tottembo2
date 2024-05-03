@@ -1,0 +1,16 @@
+.search > .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 19px 15px;
+}
+.language{
+    font-size:18px;
+    font-weight: 400;
+    color: var(--title-secondary-color);
+}
+.search__title{
+    font-size:clamp(20px,5vw,32px);
+    font-weight: 700;
+    color: var(--title-secondary-color);
+}
