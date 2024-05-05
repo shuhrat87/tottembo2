@@ -40,3 +40,6 @@ button,input,textarea{
     color: var(--title-primary-color);
     font-weight: 400;
 }
+body{
+    background:var( --secondary-color);
+}
