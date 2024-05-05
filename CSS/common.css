@@ -28,6 +28,15 @@ button,input,textarea{
     margin: 0 auto;
     padding: 0 15px;
 }
-body{
-    background: var(--secondary-color);
+
+.title{
+    font-size: 20px;
+    color: var(--title-primary-color);
+    font-weight: 700;
+}
+
+.subtitle{
+    font-size: 18px;
+    color: var(--title-primary-color);
+    font-weight: 400;
 }
