@@ -1,36 +1,33 @@
+
 .first__box-cards{
     display: grid;
-    grid-template-columns:repeat(3,1fr);
+    grid-template-columns:repeat(auto-fit,minmax(340px,1fr));
     gap: 30px;
-    width: 100%;
     padding: 40px 0 100px;
 }
 .first__card{
-    width: 340px;
-    height: 385px;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
     background: var(--primary-color);
     border-radius: 8px;
-    
+    padding: 23px 0 22px;
 }
 .first__card1{
     grid-column: 2 span;
     grid-row: 2 span;
-     width: 710px; 
-     height: 800px; 
+    
 }
 .first__card-card1{
-    max-width:413px ;
     display: flex;
     gap:40px ;
     justify-content: center;
     align-items: center;
 }
 .first__card-card img{
-    width: 125px;
+    max-width: 125px;
+    width: 100%;
 }
 
 .icons__box{
