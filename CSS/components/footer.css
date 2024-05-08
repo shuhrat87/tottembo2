@@ -31,6 +31,10 @@
 .footer__link{
     font-size: 18px;
     color: var(--title-primary-color);
+    transition: 0.4s;
+}
+.footer__link:hover{
+    text-decoration: underline;
 }
 .footer__box{
     display: flex;
@@ -52,11 +56,20 @@
     font-size: 18px;
     font-weight: 400;
     color: var(--title-secondary-color);
+    transition: 0.4s;
+}
+
+.footer__tel:hover{
+    text-decoration: underline;
 }
 .footer__email{
     font-size: 18px;
     font-weight: 400;
     color: var(--title-secondary-color);
+    transition: 0.4s;
+}
+.footer__email:hover{
+    text-decoration: underline;
 }
 .footer__box-links{
     display: flex;

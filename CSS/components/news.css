@@ -16,19 +16,20 @@
 
 .news__card1{
     grid-column: 2 span ;
-    max-width: 525px;
-    
+    justify-content: space-between;
     .icons__news p{
         padding: 15px 30px; 
     }
+    
 }
 .news__card6{
     grid-column: 2 span;
-    max-width: 525px;
+    justify-content: space-between;
     
     .icons__news p{
         padding: 15px 30px; 
     }
+    
 }
 .card{
     display: flex;
@@ -48,13 +49,17 @@
 }
 .news__card{
    max-width: 248px;
-    padding: 20px 0;
+    padding: 10px ;
+    
+    .news__date-box{
+        padding: 10px;
+    }
 }
 .icons__news{
     position: absolute;
     top: 0;
     left: 0;
-    padding:20px 0 0 20px;
+    padding:20px;
 }
 .icons__news p{
     color: var(--title-secondary-color); 
@@ -68,11 +73,17 @@
 .news-box{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     flex-grow: 1;
     gap: 20px;
+    padding: 10px;
     
+}
+.news__box1{
+    display: flex;
+    flex-direction: column;
+     justify-content: center;
+    flex-grow: 1;
+    gap: 20px;
 }
 
 
@@ -97,6 +108,7 @@
 .news__date-box{
     display: flex;
     gap: 10px;
+    
 }
 .news__date-txt{
     color: var( --txt-primary-color);
