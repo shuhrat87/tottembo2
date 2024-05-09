@@ -16,19 +16,16 @@
 
 .news__card1{
     grid-column: 2 span ;
-    justify-content: space-between;
-    .icons__news p{
-        padding: 15px 30px; 
-    }
-    
+    max-width: 525px;
+    height: 360px;
+    width: 100%;
 }
 .news__card6{
     grid-column: 2 span;
-    justify-content: space-between;
-    
-    .icons__news p{
-        padding: 15px 30px; 
-    }
+    max-width: 525px;
+    height: 360px;
+    width: 100%;
+    margin-top: -21%;
     
 }
 .card{
@@ -49,17 +46,12 @@
 }
 .news__card{
    max-width: 248px;
-    padding: 10px ;
+   height: 250px;
     
-    .news__date-box{
-        padding: 10px;
-    }
 }
 .icons__news{
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding:20px;
+    display: flex;
+    justify-content: space-between;
 }
 .icons__news p{
     color: var(--title-secondary-color); 
@@ -75,7 +67,6 @@
     flex-direction: column;
     flex-grow: 1;
     gap: 20px;
-    padding: 10px;
     
 }
 .news__box1{
@@ -86,28 +77,58 @@
     gap: 20px;
 }
 
+.news__card> .news__box{
+    display: flex;
+    flex-direction: column;
+     justify-content: center;
+    flex-grow: 1;
+    gap: 10px;
+}
+.news__box> .news__card-title{
+    max-width: 228px;
+    width: 100%;
+    display:-webkit-box;
+    text-overflow: ellipsis;
+    -webkit-box-orient:vertical;
+   -webkit-line-clamp: 2;
+   overflow: hidden;
+
+   &:active{
+    -webkit-line-clamp: unset;
+   }
+}
+
 
 .news__card-title{
-    color: var( --txt-primary-color);
+    color: var(--txt-primary-color);
     font-size: 22px;
     font-weight: 700;
 }
-
+.news__box >.news__card-txt{
+    max-width: 227px;
+    width: 100%;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden; 
+    
+    &:active{
+        -webkit-line-clamp: unset;
+       }
+}
 
 .news__card-txt{
     color: var( --txt-primary-color);
     font-size: 18px;
     font-weight: 400;
-    display: -webkit-box;
-    text-overflow: ellipsis;
-    --webkit-box-orient:vertical;
-    -webkit-line-clamp: 2;
-  
+   
 }
 
 .news__date-box{
     display: flex;
     gap: 10px;
+    padding-top: 10px;
     
 }
 .news__date-txt{
